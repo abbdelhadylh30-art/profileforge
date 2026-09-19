@@ -15,6 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://profile.abdelhadygabriel.me"),
+  alternates: { canonical: "/" },
   title: "ProfileForge — GitHub Profile README Generator",
   description:
     "Forge a stunning GitHub profile README in minutes. Live markdown preview, 50+ tech badges, GitHub stats embeds, AI bio writer, ready-made templates and one-click export. Free & open source.",
