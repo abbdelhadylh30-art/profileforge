@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   title: "ProfileForge — GitHub Profile README Generator",
   description:
-    "Forge a stunning GitHub profile README in minutes. Live markdown preview, 50+ tech badges, GitHub stats embeds, AI bio writer, ready-made templates and one-click export. Free & open source.",
+    "Forge a stunning GitHub profile README in minutes. Live preview, 50+ badges, stats embeds, AI bio writer, templates, one-click export. Free & open source.",
   keywords: [
     "GitHub profile README",
     "README generator",
@@ -38,12 +38,14 @@ export const metadata: Metadata = {
       "Craft a GitHub profile README that gets you noticed. Live preview, badges, stats embeds, AI bio, templates.",
     siteName: "ProfileForge",
     type: "website",
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "ProfileForge — GitHub Profile README Generator" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "ProfileForge — GitHub Profile README Generator",
     description:
       "Craft a GitHub profile README that gets you noticed. Free & open source.",
+    images: ["/og.png"],
   },
 };
 
