@@ -12,3 +12,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://profile.abdelhadygabriel.me/sitemap.xml
